@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_catalog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="miniprojet.bentaleb.othmane.shoppingcart.view.CatalogActivity"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Catalog"
+        android:layout_margin="5dp"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/ListViewCatalog"
+        android:background="@android:color/background_light"
+        android:clickable="true"
+        android:cacheColorHint="@android:color/background_light" />
+
+    <Button
+        android:text="View Shopping Cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonViewCart"
+        android:layout_margin="5dp"
+        android:layout_gravity="right" />
+</LinearLayout>
